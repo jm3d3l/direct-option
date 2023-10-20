@@ -1,0 +1,121 @@
+{
+  "type":"DELIVERY_OPTIONS_SUCCESS",
+  "response":{
+     "getDeliveryOptionsResponse":{
+        "status":"REFRESH_REQUIRED",
+        "deliveryOptions":{
+           "deliveryOption":[
+              {
+                 "identifier":0,
+                 "code":"WILL_CALL",
+                 "name":"10 Minute Service",
+                 "directedSendSystemOption":false
+              },
+              {
+                 "identifier":4,
+                 "code":"WILLCALL_TO",
+                 "name":"10 Minute Service to",
+                 "directedSendSystemOption":true
+              },
+              {
+                 "identifier":5,
+                 "code":"CAMBIO_PLUS",
+                 "name":"10 Minute Service",
+                 "directedSendSystemOption":false
+              },
+              {
+                 "identifier":6,
+                 "code":"HDS_USD",
+                 "name":"Home Delivery USD",
+                 "directedSendSystemOption":false
+              },
+              {
+                 "identifier":7,
+                 "code":"HDS_LOCAL",
+                 "name":"Home Delivery DOP",
+                 "directedSendSystemOption":false
+              },
+              {
+                 "identifier":8,
+                 "code":"HOME_DELIVERY",
+                 "name":"Home Delivery",
+                 "directedSendSystemOption":true
+              },
+              {
+                 "identifier":9,
+                 "code":"CARD_DEPOSIT",
+                 "name":"Send to a Card",
+                 "directedSendSystemOption":true
+              },
+              {
+                 "identifier":10,
+                 "code":"BANK_DEPOSIT",
+                 "name":"Account Deposit",
+                 "directedSendSystemOption":true
+              },
+              {
+                 "identifier":11,
+                 "code":"RECEIVE_AT",
+                 "name":"Bancomer Transfer Services, Inc.",
+                 "directedSendSystemOption":true
+              },
+              {
+                 "identifier":12,
+                 "code":"LTD_WILLCALL",
+                 "name":"10 Minute Service at",
+                 "directedSendSystemOption":true
+              },
+              {
+                 "identifier":13,
+                 "code":"OVERNIGHT",
+                 "name":"Overnight pick-up after 7am at any ",
+                 "directedSendSystemOption":true
+              },
+              {
+                 "identifier":15,
+                 "code":"ONLY_AT",
+                 "name":"10 minute service to Walmart",
+                 "directedSendSystemOption":true
+              },
+              {
+                 "identifier":14,
+                 "code":"OVERNIGHT2ANY",
+                 "name":"Overnight Available after 7am",
+                 "directedSendSystemOption":false
+              },
+              {
+                 "identifier":16,
+                 "code":"TWENTY_FOUR_HOUR",
+                 "name":"24 Hour Service",
+                 "directedSendSystemOption":false
+              },
+              {
+                 "identifier":17,
+                 "code":"48_HOUR",
+                 "name":"48 Hour Service",
+                 "directedSendSystemOption":false
+              },
+              {
+                 "identifier":18,
+                 "code":"MOBILE_WALLET",
+                 "name":"MOBILE WALLET",
+                 "directedSendSystemOption":true
+              },
+              {
+                 "identifier":19,
+                 "code":"DIRECT_TO_ACCT",
+                 "name":"Send to Wallet",
+                 "directedSendSystemOption":true
+              },
+              {
+                 "identifier":20,
+                 "code":"2_HOUR",
+                 "name":"2 Hour Service",
+                 "directedSendSystemOption":false
+              }
+           ]
+        }
+     }
+  },
+  "processOnBackground":true
+}
